@@ -18,9 +18,10 @@ import (
 )
 
 var (
-	Web    = fakeSearch("web1")
-	Image  = fakeSearch("image1")
-	Video  = fakeSearch("video1")
+	Web   = fakeSearch("web1")
+	Image = fakeSearch("image1")
+	Video = fakeSearch("video1")
+	//Below are the replicated search servers.
 	Web2   = fakeSearch("web2")
 	Image2 = fakeSearch("image2")
 	Video2 = fakeSearch("video2")
