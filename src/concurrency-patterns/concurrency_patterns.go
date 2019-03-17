@@ -10,19 +10,19 @@ func main() {
 
 	fmt.Println("Started runBoring")
 	runBoring()
-	fmt.Println("Finished runBoring\n\n")
+	fmt.Println("Finished runBoring\n")
 
 	time.Sleep(3 * time.Second)
 
 	fmt.Println("Starting message passing using channel")
 	runBoringWithChan()
-	fmt.Println("Finished message passing using channel\n\n")
+	fmt.Println("Finished message passing using channel\n")
 
 	time.Sleep(3 * time.Second)
 
 	fmt.Println("Starting Generator Pattern")
 	runBoringChanGenerator()
-	fmt.Println("Finished Generator Pattern\n\n")
+	fmt.Println("Finished Generator Pattern\n")
 
 	time.Sleep(3 * time.Second)
 
